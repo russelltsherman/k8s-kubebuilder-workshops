@@ -1,0 +1,11 @@
+###############################################################################
+# git repo manifest
+# 
+# one repo per line
+# 
+# {remote_repo_url} {local_repo}
+###############################################################################
+git@github.com:DirectXMan12/kubebuilder-workshops kubebuilder-workshops
+#
+# add a provision where by we can add a branch/tag/commit reference
+#
