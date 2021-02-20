@@ -1,11 +1,14 @@
 ###############################################################################
 # git repo manifest
 # 
-# one repo per line
-# 
+# one repo per line 
 # {remote_repo_url} {local_repo}
+#
+# a repo may reference a specific branch or tag
+# {remote_repo_url}?ref=staging
+# {remote_repo_url}?ref=tags/v1
 ###############################################################################
 git@github.com:DirectXMan12/kubebuilder-workshops kubebuilder-workshops
-#
-# add a provision where by we can add a branch/tag/commit reference
-#
+git@github.com:DirectXMan12/kubebuilder-workshops?ref=tags/start start
+git@github.com:DirectXMan12/kubebuilder-workshops?ref=kubecon-eu-2019 kubecon-eu-2019
+git@github.com:DirectXMan12/kubebuilder-workshops?ref=kubecon-us-2019 kubecon-us-2019
